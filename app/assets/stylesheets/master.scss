@@ -74,11 +74,18 @@ h3 {
   font-family: 'Philosopher', sans-serif;
   font-weight: bold;
 }
+.links a:hover{
+  text-decoration: none;
+  color: #F5D269;
+}
 .next-quote {
   color: #f84342; /* #883BED; */
   font-family: 'Philosopher', sans-serif;
   font-weight: bold;
   font-size: 20px;
+}
+.next-quote:hover {
+  color: #F5D269;
 }
 .footer {
   background: image-url('bg-bottom.jpg') no-repeat center bottom fixed;
@@ -103,6 +110,9 @@ h3 {
 .webpage-link {
   color: #F5D269;
   font-weight: bold;
+}
+.webpage-link:hover {
+  color: #f84342;
 }
 
 ::selection {
